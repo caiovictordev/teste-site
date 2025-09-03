@@ -1,3 +1,73 @@
-.header{
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    padding: 10px;
+    background: #0000002a;
+    width: 100%;
+    flex-direction: column;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+li{
+    list-style: none;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+body{
+    background-color: rgb(5, 22, 46);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1080px;
+    flex-direction: column;
+}
+html{
+    scroll-behavior: smooth;
+}
+.imagem1{
+    background-image: url(dirtmount.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.imagem2{
+    background-image: url(imagem.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.imagem3{
+    background-image: url(imagem2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+>imagem4{
     
 }
